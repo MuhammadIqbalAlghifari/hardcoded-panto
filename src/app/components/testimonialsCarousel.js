@@ -48,8 +48,8 @@ export default function TestimonialsCarouselComponent() {
     return (
         <div className="mt-14 w-full relative h-full flex flex-col justify-center">
             <div ref={el => {ArrowAnimation}} className="flex justify-between w-full absolute z-30 items-center -mt-10">
-                <FaArrowLeftLong className="bg-white w-10 h-10 p-3 rounded-full -ml-5 cursor-pointer shadow-md"/>
-                <FaArrowRightLong className="bg-white w-10 h-10 p-3 rounded-full -mr-5 cursor-pointer shadow-md"/>
+                <FaArrowLeftLong className="bg-white text-black w-10 h-10 p-3 rounded-full -ml-5 cursor-pointer shadow-md"/>
+                <FaArrowRightLong className="bg-white text-black w-10 h-10 p-3 rounded-full -mr-5 cursor-pointer shadow-md"/>
             </div>
             <main ref={ItemAnimation} className="flex h-full justify-between relative items-center w-full">
                 <aside className="flex w-full md:w-auto flex-col justify-end h-full relative">
@@ -62,7 +62,7 @@ export default function TestimonialsCarouselComponent() {
                                     <h1 className="text-xs text-black font-extralight">Pedangan Asongan</h1>
                                 </div>
                                 <div className="w-full h-full flex flex-col md:justify-between justify-center gap-y-2 md:gap-y-0 items-center">
-                                    <p className="text-center md:text-sm text-xs font-light">"Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal"</p>
+                                    <p className="text-center text-black md:text-sm text-xs font-light">"Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal"</p>
                                     <div className="flex justify-center gap-x-2 items-center">
                                         <FaStar className="w-3 h-3 text-orange-500"/>
                                         <FaStar className="w-3 h-3 text-orange-500"/>
@@ -84,7 +84,7 @@ export default function TestimonialsCarouselComponent() {
                                     <h1 className="text-xs text-black font-extralight">Ibu Rumah Tangga</h1>
                                 </div>
                                 <div className="w-full h-full flex flex-col justify-between items-center">
-                                    <p className="text-center text-sm font-light">"Makasih panto, aku sekarang berasa tinggal di aprtment karena barang-barang yang terlihat mewah"</p>
+                                    <p className="text-center text-black text-sm font-light">"Makasih panto, aku sekarang berasa tinggal di aprtment karena barang-barang yang terlihat mewah"</p>
                                     <div className="flex justify-center gap-x-2 items-center">
                                         <FaStar className="w-3 h-3 text-orange-500"/>
                                         <FaStar className="w-3 h-3 text-orange-500"/>
